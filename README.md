@@ -33,7 +33,7 @@ corruption, delays, and losses.
 
 ![Sender State Diagram](https://github.com/RyanSandford/Reliable-Data-Transfer-Protocol/blob/master/rdt%203.0%20Sender.jpg)
 ![Reciever State Diagram](https://github.com/RyanSandford/Reliable-Data-Transfer-Protocol/blob/master/rdt%203.0%20Receiver.jpg)
-![rdt 3.0 cases]()
+![rdt 3.0 cases](https://github.com/RyanSandford/Reliable-Data-Transfer-Protocol/blob/master/rdt%203.0%20visualization.jpg)
 
 [1] Computer Networking: A Top-Down Approach
 James F. Kurose and Keith W. Ross
