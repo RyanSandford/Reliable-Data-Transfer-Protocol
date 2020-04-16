@@ -1,5 +1,5 @@
 """
-Ryan Sandford, 250858219, November 10, 2019
+Ryan Sandford, November 10, 2019
 This Program implements the client side of the reliable data transfer 3.0
 protocol described in the course textbook
 """
