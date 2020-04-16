@@ -1,7 +1,7 @@
 """
 Ryan Sandford, November 10, 2019
 This Program implements the client side of the reliable data transfer 3.0
-protocol described in the course textbook
+protocol described in section 3.4.1 of Computer Networking: A Top-Down Approach
 """
 import binascii
 import socket
