@@ -32,7 +32,7 @@ Lastly, the below images describe the reliable data transfer 3.0 protocol and ho
 corruption, delays, and losses.
 
 ![Sender State Diagram]()
-![Reciever State Diagram]()
+![Reciever State Diagram](https://github.com/RyanSandford/Reliable-Data-Transfer-Protocol/blob/master/rdt%203.0%20Receiver.jpg)
 ![rdt 3.0 cases]()
 
 [1] Computer Networking: A Top-Down Approach
