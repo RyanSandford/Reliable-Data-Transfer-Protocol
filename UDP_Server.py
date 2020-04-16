@@ -1,7 +1,7 @@
 """
-Ryan Sandford, 250858219, November 10, 2019
+Ryan Sandford, November 10, 2019
 This Program implements the server side of the reliable data transfer 3.0
-protocol described in the course textbook
+protocol described in section 3.4.1 of Computer Networking: A Top-Down Approach
 """
 import binascii
 import socket
@@ -64,7 +64,7 @@ def has_seq(UDP_Packet,num):
         print('Packet has incorrect sequence number: seq =', switch_seq(num))
         return False
 
-#Simply implements the extrat data function reffered to in rdt 3.0
+#Simply implements the extract data function reffered to in rdt 3.0
 def extract(UDP_Packet):
     return UDP_Packet[2]
 
@@ -74,7 +74,7 @@ def deliver(data):
     string = data.decode("utf-8")
     print("Recieved data:", string + ", succesfully delivered upwards")
 
-#Network Delay, 1/3 chance od delaying an ack
+#Network Delay, 1/3 chance of delaying an ack
 def Network_Delay():
     if True and random.choice([0,1,0]) == 1:
         time.sleep(.01)
