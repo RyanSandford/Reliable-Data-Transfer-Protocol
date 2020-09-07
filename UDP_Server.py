@@ -149,6 +149,6 @@ while True:
 
     print("\n")
 
-#Note Please make sure server is running before client sends requests
-#Other wise you well be met with an infinite timeout loop
+#Note Please make sure server is running before client sends requests;
+#otherwise you will be met with an infinite timeout loop
 
